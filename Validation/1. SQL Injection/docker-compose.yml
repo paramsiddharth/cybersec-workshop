@@ -5,14 +5,12 @@ services:
   database:
     image: mysql
     restart: always
-    ports:
-      - 3306:3306
     volumes:
       - ./database:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: jskdoenswpsfi
       MYSQL_DATABASE: users
-  
+
   backend:
     build: ./backend
     restart: always
@@ -25,3 +23,14 @@ services:
       DB_URL: database
       DB_USER: root
       DB_PASS: jskdoenswpsfi
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_BACKEND=http://localhost:5000
+    restart: always
+    ports:
+      - 8080:80
+    depends_on:
+      - backend
