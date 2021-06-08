@@ -6,12 +6,11 @@ Files for the cybersecurity workshop demonstrations.
 	<thead>
 		<tr>
 			<td colspan='2'>Attack</td>
-			<td>Status</td>
+			<td rowspan='2'>Status</td>
 		</tr>
 		<tr>
 			<td>Type</td>
 			<td>Subtype</td>
-			<td></td>
 		</tr>
 	</thead>
 	<tbody>
