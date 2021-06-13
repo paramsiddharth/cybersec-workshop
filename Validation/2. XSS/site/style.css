@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	padding: 0 !important;
+	min-height: 100vh;
+	grid-template-rows: auto auto auto;
+	background-color: rgb(224, 224, 173);
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	padding: 1.5em;
+	text-align: center;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 0 0 0.2em 0.2em;
+	box-shadow: 0 3px 2px rgb(85, 62, 88);
+	margin-bottom: 1em;
+}
+
+header h1 {
+	margin-bottom: 0.6em;
+}
+
+header input, header button {
+	display: block;
+	width: 100%;
+	margin: 0.6em 0;
+	padding: 0.7em;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	font-size: 0.6em;
+}
+
+header button {
+	font-size: 1.2em;
+	padding: 0.4em;
+	background-color: pink;
+	color: black;
+}
+
+header button:hover, header button:active {
+	transition: all 0.3s;
+	filter: brightness(117%);
+}
+
+main {
+	margin: auto 0 !important;
+	padding: 0 10px;
+	width: 100vw !important;
+}
+
+main .comment {
+	width: auto;
+	margin: 0.4em auto !important;
+	background-color: white;
+	padding: 0.8em;
+	border-radius: 0.2em;
+	box-shadow: 3px 3px 2px black;
+}
+
+main .comment .comment-text {
+	font-size: 0.8em;
+}
+
+main .comment .author::before {
+	content: ' – ';
+}
+
+main .comment .author {
+	font-style: italic;
+	text-align: right;
+	font-size: 0.7em;
+	margin-top: 0.5em;
+}
+
+footer {
+	justify-self: end;
+	background-color: brown;
+	padding: 3em 20px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	color: white;
+	width: 100vw;
+	margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+
+	header {
+		height: 8em;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	header h1 {
+		margin-bottom: 0.1em;
+	}
+
+	header input {
+		width: 25%;
+		display: inline-block;
+		margin: auto;
+	}
+
+	header input[name='comment'] {
+		width: 45%;
+	}
+
+	header button {
+		width: 25%;
+		padding: 0.1em;
+		transform: translateY(0.13em);
+		display: inline-block;
+	}
+
+	main {
+		margin-top: 0 !important;
+		width: 100%;
+	}
+
+	main .comment {
+		max-width: 400px;
+	}
+
+	footer {
+		position: relative;
+		padding: 1em 0;
+	}
+
+	footer p {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+	}
+}
