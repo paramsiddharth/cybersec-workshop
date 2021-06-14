@@ -21,7 +21,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td>Cross-site scripting (XSS)</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Shell-injection</td>

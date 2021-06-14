@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+
+  nginx:
+    build: ./nginx
+    ports:
+      - '8080:80'
+    volumes:
+      - ./site:/usr/share/nginx/html
+    depends_on:
+      - php
+    entrypoint: ["/wait-for-it.sh", "php:9000", "--", "nginx", "-g", "daemon off;"]
+
+  php:
+    build: ./php
+    volumes:
+      - ./site:/var/www/html
+    environment:
+      DB_HOST: database
+      DB_USER: root
+      DB_PASS: duwnorhbnucospa
+      DB_NAME: comments
+    depends_on:
+      - database
+    entrypoint: ["/wait-for-it.sh", "database:3306", "--", "php-fpm"]
+  
+  database:
+    image: mysql
+    restart: always
+    volumes:
+      - ./database:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: duwnorhbnucospa
+      MYSQL_DATABASE: comments
