@@ -1,22 +1,23 @@
 ifeq ($(PREFIX),)
     PREFIX := /usr/local
 endif
+PROG := lla
 
 .PHONY: build install clean uninstall
 
-build: lla
+build: $(PROG)
 
-install: lla
+install: $(PROG)
 	install -d $(PREFIX)/bin/
-	install -m 777 lla $(PREFIX)/bin/
+	install -m 777 $(PROG) $(PREFIX)/bin/
 
 clean:
-	-rm -f lla
-	-rm -f lla.exe
+	-rm -f $(PROG)
+	-rm -f $(PROG).exe
 
-lla:
-	gcc -o lla lla.c
+$(PROG):
+	gcc -o $(PROG) $(PROG).c
 
 uninstall:
-	-rm -f $(PREFIX)/bin/lla
-	-rm -f $(PREFIX)/bin/lla.exe
+	-rm -f $(PREFIX)/bin/$(PROG)
+	-rm -f $(PREFIX)/bin/$(PROG).exe

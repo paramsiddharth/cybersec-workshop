@@ -25,7 +25,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td>Shell-injection</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Service isolation</td>
