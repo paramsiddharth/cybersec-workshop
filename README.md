@@ -34,7 +34,7 @@ Files for the cybersecurity workshop demonstrations.
 		<tr>
 			<td rowspan='2'>Deception</td>
 			<td>Phishing</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Spoofing</td>

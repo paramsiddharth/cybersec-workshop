@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+
+  set:
+    build: .
+    image: kali-setoolkit
+    tty: true
+    stdin_open: true
+    ports:
+      - '8080:80'
+    volumes:
+      - ./data:/root
