@@ -29,7 +29,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td>Service isolation</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='2'>Deception</td>

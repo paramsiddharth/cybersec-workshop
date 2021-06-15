@@ -1,0 +1,130 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	background-color: rgb(13, 41, 41);
+	color: rgb(238, 238, 238);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(29, 36, 58);
+}
+
+header h1 {
+	font-variant: small-caps;
+	font-size: 50px;
+	padding: 0.4em 1.5rem;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 19px;
+	background-color: rgb(46, 56, 87);
+	width: 100;
+}
+
+.nav-item {
+	color: pink;
+	background-color: rgb(46, 56, 87);
+	padding: 6px 8px;
+}
+
+.nav-item:hover, .nav-item:focus {
+	filter: brightness(140%);
+}
+
+.nav-item.premium {
+	display: none;
+}
+
+main {
+	background-color: rgb(204, 206, 211);
+	font-weight: bold;
+	padding: 23px;
+	color: rgb(66, 8, 8);
+	width: 100%;
+}
+
+#description {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+img.main {
+	height: 8em;
+	display: block;
+	margin: 8px auto;
+}
+
+#buy {
+	font-size: 2.3rem;
+	padding: 0.2em 0.7em;
+	margin-top: 6px;
+	outline: none;
+	background-color: black;
+	color: rgb(149, 226, 236);
+	border-radius: 8px;
+	width: 100%;
+}
+
+#buy:hover, #buy:focus {
+	background-color: rgb(46, 46, 46);
+}
+
+#done {
+	margin-top: 1em;
+	font-size: 1.2rem;
+	font-style: italic;
+	font-weight: normal;
+	display: none;
+	color: black;
+	text-shadow: 1px 1px 1px rgb(61, 61, 61);
+}
+
+footer {
+	min-height: 3rem;
+	padding: 40px;
+	text-align: center;
+	background-color: rgb(13, 41, 41);
+}
+
+@media only screen and (min-width: 768px) {
+	header {
+		text-align: left;
+	}
+
+	nav {
+		justify-content: flex-end;
+		font-size: 15px;
+	}
+
+	.nav-item {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#buy {
+		width: auto;
+		font-size: 20px;
+	}
+
+	#done {
+		font-size: 1rem;
+		text-shadow: 0 0 1px rgb(80, 80, 80);
+	}
+}
