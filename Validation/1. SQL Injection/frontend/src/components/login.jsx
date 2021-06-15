@@ -64,16 +64,16 @@ const Login = ({ token, setToken }) => {
 		<div className='form-item'>
 			<label htmlFor='username'>
 				<div className='label'>Username:</div>
-				<input tabIndex={0} id='username' type='text' value={username} onChange={e => setUsername(e.target.value)} />
+				<input tabIndex={1} id='username' type='text' value={username} onChange={e => setUsername(e.target.value)} />
 			</label>
 		</div>
 		<div className='form-item'>
 			<label htmlFor='password'>
 				<div className='label'>Password:</div>
-				<input tabIndex={1} id='password' type='password' value={password} onChange={e => setPassword(e.target.value)} />
+				<input tabIndex={2} id='password' type='password' value={password} onChange={e => setPassword(e.target.value)} />
 			</label>
 		</div>
-		<button tabIndex={2} type='submit' id='login' onClick={login}>Login</button>
+		<button tabIndex={3} type='submit' id='login' onClick={login}>Login</button>
 	</form><ToastContainer /></>;
 };
 
