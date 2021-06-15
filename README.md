@@ -38,7 +38,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td>Spoofing</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='2'>Steganography</td>

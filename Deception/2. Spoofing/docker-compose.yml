@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+
+  app:
+    build: ./app
+    ports:
+      - '8080:80'
+    environment:
+      SECRET: kpshrbsaicnspreik
+      PASSWORD: underwater

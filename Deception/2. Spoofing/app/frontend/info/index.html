@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Top Secret Tasks</title>
+	<link rel='stylesheet' href='/modules/bootstrap/dist/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='/modules/css-spinners/dist/all.min.css'>
+	<script defer src='/modules/jquery/dist/jquery.min.js'></script>
+	<script defer src='/modules/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+	<script defer src='tasks.js'></script>
+</head>
+<body class='bg-light'>
+	<div class="jumbotron bg-dark text-white pt-3">
+		<a class='text-white text-decoration-none' href='/'>
+			<h1 class="display-4 font-weight-bold text-center">Top Secret Tasks</h1>
+		</a>
+		<p class="lead text-center">The government relies on these secret tasks.</p>
+		<hr class="my-4">
+	</div>
+	<div class='container-fluid'>
+		<div id='content' class='row'>
+			<div class='col-12 offset-md-3 col-md-6 text-center text-md-left'>
+				<h2>Task list</h2>
+			</div>
+			<div id='loader-row' class='col-12 offset-md-3 col-md-6 mt-2'>
+				<div id='loader' class='text-center'>
+					<span class='spin success'></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
