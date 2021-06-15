@@ -1,7 +1,6 @@
 # Spoofing
 Feigning authentication using cookie-spoofing.
 
-
 ## Execution
 ```bash
 docker compose up -d
