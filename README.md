@@ -15,29 +15,29 @@ Files for the cybersecurity workshop demonstrations.
 	</thead>
 	<tbody>
 		<tr>
-			<td rowspan='4'>Validation</td>
-			<td>SQL Injection</td>
+			<td rowspan='4'><a href='./Validation'>Validation</a></td>
+			<td><a href='./Validation/1. SQL Injection'>SQL Injection</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Cross-site scripting (XSS)</td>
+			<td><a href='./Validation/2. XSS'>Cross-site scripting (XSS)</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Shell-injection</td>
+			<td><a href='./Validation/3. Shell Injection'>Shell-injection</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Service isolation</td>
+			<td><a href='./Validation/4. Service Isolation'>Service isolation</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='2'>Deception</td>
-			<td>Phishing</td>
+			<td rowspan='2'><a href='./Deception'>Deception</a></td>
+			<td><a href='./Deception/1. Phishing'>Phishing</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Spoofing</td>
+			<td><a href='./Deception/2. Spoofing'>Spoofing</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
