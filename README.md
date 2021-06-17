@@ -52,7 +52,7 @@ Files for the cybersecurity workshop demonstrations.
 		<tr>
 			<td rowspan='3'>Cryptography</td>
 			<td>Caesar Cipher</td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Base 64</td>
