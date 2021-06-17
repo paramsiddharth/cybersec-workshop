@@ -5,7 +5,7 @@ with the shell injection vulnerability.
 ## Execution
 ```bash
 # Installation
-make install
+sudo make install
 
 # Building
 make
