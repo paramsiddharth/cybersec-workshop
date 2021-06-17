@@ -41,17 +41,17 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='2'>Steganography</td>
+			<td rowspan='2'><a href='./Steganography'>Steganography</a></td>
 			<td>BinWalk, Foremost, and CyberChef</td>
 			<td>❌</td>
 		</tr>
 		<tr>
-			<td>Textual Cover-Up</td>
+			<td><a href='./Steganography/2. Textual Cover-Up'>Textual Cover-Up</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='3'>Cryptography</td>
-			<td>Caesar Cipher</td>
+			<td rowspan='3'><a href='./Cryptography'>Cryptography</a></td>
+			<td><a href='./Cryptography/1. Caesar Cipher'>Caesar Cipher</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
