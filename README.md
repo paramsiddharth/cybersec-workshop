@@ -46,8 +46,8 @@ Files for the cybersecurity workshop demonstrations.
 			<td>❌</td>
 		</tr>
 		<tr>
-			<td>PlayMaker</td>
-			<td>❌</td>
+			<td>Textual Cover-Up</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='3'>Cryptography</td>
