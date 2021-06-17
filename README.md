@@ -42,8 +42,8 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td rowspan='2'><a href='./Steganography'>Steganography</a></td>
-			<td>BinWalk, Foremost, and CyberChef</td>
-			<td>❌</td>
+			<td><a href='./Steganography/1. Mysterious Files'>Mysterious Files</a></td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td><a href='./Steganography/2. Textual Cover-Up'>Textual Cover-Up</a></td>
