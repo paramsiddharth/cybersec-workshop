@@ -20,15 +20,15 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td><a href='./Validation/2. XSS'>Cross-site scripting (XSS)</a></td>
+			<td><a href='./Validation/2. XSS'>Cross-Site Scripting (XSS)</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td><a href='./Validation/3. Shell Injection'>Shell-injection</a></td>
+			<td><a href='./Validation/3. Shell Injection'>Shell Injection</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td><a href='./Validation/4. Service Isolation'>Service isolation</a></td>
+			<td><a href='./Validation/4. Service Isolation'>Service Isolation</a></td>
 			<td>✔</td>
 		</tr>
 		<tr>
@@ -59,7 +59,7 @@ Files for the cybersecurity workshop demonstrations.
 			<td>❌</td>
 		</tr>
 		<tr>
-			<td>Dictionary attacks: SHA-256 and MD5</td>
+			<td>Dictionary Attacks</td>
 			<td>❌</td>
 		</tr>
 		<tr>
@@ -68,7 +68,7 @@ Files for the cybersecurity workshop demonstrations.
 			<td>❌</td>
 		</tr>
 		<tr>
-			<td>Code-inspection</td>
+			<td>Code Inspection</td>
 			<td>❌</td>
 		</tr>
 		<tr>
@@ -77,7 +77,7 @@ Files for the cybersecurity workshop demonstrations.
 			<td>❌</td>
 		</tr>
 		<tr>
-			<td>Code-execution</td>
+			<td>Code Execution</td>
 			<td>❌</td>
 		</tr>
 	</tbody>
