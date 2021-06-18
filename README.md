@@ -55,7 +55,7 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Base 64</td>
+			<td><a href='./Cryptography/2. Base64'>Base64</a></td>
 			<td>❌</td>
 		</tr>
 		<tr>
