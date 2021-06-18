@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdint.h>
 
 char table(uint8_t val) {
