@@ -41,15 +41,6 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='2'><a href='./Steganography'>Steganography</a></td>
-			<td><a href='./Steganography/1. Mysterious Files'>Mysterious Files</a></td>
-			<td>✔</td>
-		</tr>
-		<tr>
-			<td><a href='./Steganography/2. Textual Cover-Up'>Textual Cover-Up</a></td>
-			<td>✔</td>
-		</tr>
-		<tr>
 			<td rowspan='3'><a href='./Cryptography'>Cryptography</a></td>
 			<td><a href='./Cryptography/1. Caesar Cipher'>Caesar Cipher</a></td>
 			<td>✔</td>
@@ -61,6 +52,15 @@ Files for the cybersecurity workshop demonstrations.
 		<tr>
 			<td>Dictionary Attacks</td>
 			<td>❌</td>
+		</tr>
+		<tr>
+			<td rowspan='2'><a href='./Steganography'>Steganography</a></td>
+			<td><a href='./Steganography/1. Mysterious Files'>Mysterious Files</a></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td><a href='./Steganography/2. Textual Cover-Up'>Textual Cover-Up</a></td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='2'>Reverse Engineering</td>
