@@ -50,8 +50,8 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Dictionary Attacks</td>
-			<td>❌</td>
+			<td><a href='./Cryptography/3. Hash Cracking'>Hash Cracking</a></td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='2'><a href='./Steganography'>Steganography</a></td>
