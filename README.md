@@ -64,7 +64,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td rowspan='2'>Reverse Engineering</td>
-			<td>Findings Strings</td>
+			<td>Finding Strings</td>
 			<td>❌</td>
 		</tr>
 		<tr>
