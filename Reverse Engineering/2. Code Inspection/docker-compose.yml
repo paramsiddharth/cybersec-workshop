@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+
+  backend:
+    build: ./backend
+    hostname: tarazu-backend
+  
+  proxy:
+    build: ./nginx
+    ports:
+      - '8080:80'
+    depends_on:
+      - backend
+    entrypoint: ["/wait-for-it.sh", "tarazu-backend:8080", "--", "nginx", "-g", "daemon off;"]
