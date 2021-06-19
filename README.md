@@ -63,12 +63,12 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='2'>Reverse Engineering</td>
-			<td>Finding Strings</td>
-			<td>❌</td>
+			<td rowspan='2'><a href='./Reverse Engineering'>Reverse Engineering</a></td>
+			<td><a href='./Reverse Engineering/1. Finding Strings'>Finding Strings</a></td>
+			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Code Inspection</td>
+			<td><a href='./Reverse Engineering/2. Code Inspection'>Code Inspection</a></td>
 			<td>❌</td>
 		</tr>
 		<tr>
