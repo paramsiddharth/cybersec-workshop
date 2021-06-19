@@ -70,7 +70,13 @@ void decode(FILE* f) {
 	int savedbits[8] = {0};
 	int lastpos = 0;
 	while ((byte = fgetc(f)) != EOF) {
-		if (byte == '=')
+		if (!(
+			   'A' <= byte && byte <= 'Z'
+			|| 'a' <= byte && byte <= 'z'
+			|| '0' <= byte && byte <= '9'
+			|| byte == '+'
+			|| byte == '/'
+		))
 			continue;
 
 		int bits[6];

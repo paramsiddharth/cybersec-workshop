@@ -47,7 +47,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td><a href='./Cryptography/2. Base64'>Base64</a></td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Dictionary Attacks</td>
