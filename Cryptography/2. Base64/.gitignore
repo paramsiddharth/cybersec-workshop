@@ -1,3 +1,5 @@
 b64
 b64.out
 b64.exe
+*.txt
+!secret.txt
