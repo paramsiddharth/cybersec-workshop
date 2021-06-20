@@ -72,9 +72,9 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td rowspan='2'>Penetration</td>
-			<td>Denial of Service (DoS)</td>
-			<td>❌</td>
+			<td rowspan='2'><a href='./Penetration'>Penetration</a></td>
+			<td><a href='./Penetration/1. Denial of Service'>Denial of Service (DoS)</a></td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>Code Execution</td>
