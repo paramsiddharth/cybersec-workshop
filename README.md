@@ -77,8 +77,8 @@ Files for the cybersecurity workshop demonstrations.
 			<td>✔</td>
 		</tr>
 		<tr>
-			<td>Code Execution</td>
-			<td>❌</td>
+			<td><a href='./Penetration/2. Code Execution'>Code Execution</a></td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
