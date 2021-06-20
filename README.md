@@ -69,7 +69,7 @@ Files for the cybersecurity workshop demonstrations.
 		</tr>
 		<tr>
 			<td><a href='./Reverse Engineering/2. Code Inspection'>Code Inspection</a></td>
-			<td>❌</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td rowspan='2'>Penetration</td>
