@@ -4,7 +4,7 @@ a phising page.
 
 ## Execution
 
-We will be using Ngrok for tunneling.
+If needed, we will be using Ngrok for tunneling.
 ```bash
 # Execute inside the host machine
 ngrok http 8080
@@ -24,7 +24,7 @@ y
 2
 3
 1
-<Your Ngrok URL without the http:// prefix>
+<Your Ngrok URL without the http:// prefix (if on localhost, use localhost:8080)>
 2
 
 ```
