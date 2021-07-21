@@ -14,4 +14,6 @@ make
 lla
 ```
 
+Try entering malicious arguments, such as `. && echo I am ready\!`;
+
 # Made with ❤ by [Param](https://www.paramsid.com).
