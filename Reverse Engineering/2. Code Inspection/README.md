@@ -9,4 +9,7 @@ docker compose up -d
 
 Next, open `game.html`.
 
+Try inspecting and modifying the JavaScript code
+to enable pain features.
+
 # Made with ❤ by [Param](https://www.paramsid.com).
