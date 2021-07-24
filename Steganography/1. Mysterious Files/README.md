@@ -30,7 +30,7 @@ Concealing information via embedded files.
      # Nice image, but there is a flag
      strings house.png | grep flag
      ```
-   - Foremost
+   - Foremost:
      ```bash
      # Look at what files are contained within
      foremost info.png
@@ -55,7 +55,7 @@ Concealing information via embedded files.
      # Nice image, but there is a flag
      strings house.png | grep flag
      ```
-   - CyberChef
+   - CyberChef:
      1. Insert `info.png` inside the input.
      2. Look for embedded files.
      3. Get the ZIP file out.
