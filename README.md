@@ -1,6 +1,8 @@
 # Cybersecurity Workshop
 Files for the cybersecurity workshop demonstrations.
 
+Workshop stream recording: [YouTube](https://youtu.be/-w6PZv5TZ3U).
+
 ## Progress
 <table>
 	<thead>
